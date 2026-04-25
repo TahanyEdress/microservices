@@ -1,7 +1,8 @@
 name: FIP_APP
-on: 
+on:
   push:
-   - master
+    branches:
+      - master
 jobs:
  build_:
   runs-on: ubuntu-latest
